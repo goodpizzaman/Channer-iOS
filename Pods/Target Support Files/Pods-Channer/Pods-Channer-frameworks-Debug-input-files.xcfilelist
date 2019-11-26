@@ -1,0 +1,15 @@
+${PODS_ROOT}/Target Support Files/Pods-Channer/Pods-Channer-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AsyncSwift/Async.framework
+${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework
+${BUILT_PRODUCTS_DIR}/HanekeSwift/Haneke.framework
+${BUILT_PRODUCTS_DIR}/ImageScrollView/ImageScrollView.framework
+${BUILT_PRODUCTS_DIR}/OGVKit/OGVKit.framework
+${BUILT_PRODUCTS_DIR}/PMAlertController/PMAlertController.framework
+${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/libnestegg/nestegg.framework
+${BUILT_PRODUCTS_DIR}/libogg/ogg.framework
+${BUILT_PRODUCTS_DIR}/libopus/libopus.framework
+${BUILT_PRODUCTS_DIR}/libvorbis/vorbis.framework
+${PODS_ROOT}/libvpx/VPX.framework

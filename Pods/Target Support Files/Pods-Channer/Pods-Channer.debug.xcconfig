@@ -1,0 +1,12 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/AsyncSwift" "${PODS_CONFIGURATION_BUILD_DIR}/DeviceKit" "${PODS_CONFIGURATION_BUILD_DIR}/HanekeSwift" "${PODS_CONFIGURATION_BUILD_DIR}/ImageScrollView" "${PODS_CONFIGURATION_BUILD_DIR}/OGVKit" "${PODS_CONFIGURATION_BUILD_DIR}/PMAlertController" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftGifOrigin" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON" "${PODS_CONFIGURATION_BUILD_DIR}/libnestegg" "${PODS_CONFIGURATION_BUILD_DIR}/libogg" "${PODS_CONFIGURATION_BUILD_DIR}/libopus" "${PODS_CONFIGURATION_BUILD_DIR}/libvorbis" "${PODS_ROOT}/libvpx"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/AsyncSwift/Async.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/DeviceKit/DeviceKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/HanekeSwift/Haneke.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ImageScrollView/ImageScrollView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/OGVKit/OGVKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PMAlertController/PMAlertController.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/libnestegg/nestegg.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/libogg/ogg.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/libopus/libopus.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/libvorbis/vorbis.framework/Headers" "${PODS_ROOT}/libopus/silk"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -DOGVKIT_HAVE_OPUS_DECODER -DOGVKIT_HAVE_VP8_DECODER -DOGVKIT_HAVE_VORBIS_DECODER
+OTHER_LDFLAGS = $(inherited) -framework "Alamofire" -framework "Async" -framework "DeviceKit" -framework "Haneke" -framework "ImageScrollView" -framework "OGVKit" -framework "PMAlertController" -framework "SwiftGifOrigin" -framework "SwiftyJSON" -framework "UIKit" -framework "VPX" -framework "libopus" -framework "nestegg" -framework "ogg" -framework "vorbis"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

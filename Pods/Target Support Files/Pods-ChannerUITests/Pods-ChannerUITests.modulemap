@@ -1,0 +1,6 @@
+framework module Pods_ChannerUITests {
+  umbrella header "Pods-ChannerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

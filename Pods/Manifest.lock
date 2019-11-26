@@ -1,0 +1,102 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AsyncSwift (2.0.4)
+  - DeviceKit (2.3.0)
+  - HanekeSwift (1.1)
+  - ImageScrollView (1.8)
+  - libnestegg (0.3)
+  - libogg (1.3.3)
+  - libopus (1.1):
+    - libopus/float (= 1.1)
+  - libopus/float (1.1)
+  - libvorbis (1.3.5):
+    - libogg (>= 1.0)
+  - libvpx (1.7.0)
+  - OGVKit/Core (0.5.13)
+  - OGVKit/OpusDecoder (0.5.13):
+    - libopus
+    - OGVKit/Core
+  - OGVKit/VorbisDecoder (0.5.13):
+    - libvorbis
+    - OGVKit/Core
+  - OGVKit/VP8Decoder (0.5.13):
+    - libvpx (~> 1.7.0)
+    - OGVKit/Core
+  - OGVKit/WebM (0.5.13):
+    - OGVKit/WebM/Opus (= 0.5.13)
+    - OGVKit/WebM/Vorbis (= 0.5.13)
+    - OGVKit/WebM/VP8 (= 0.5.13)
+  - OGVKit/WebM/Opus (0.5.13):
+    - OGVKit/OpusDecoder
+    - OGVKit/WebMDemuxer
+  - OGVKit/WebM/Vorbis (0.5.13):
+    - OGVKit/VorbisDecoder
+    - OGVKit/WebMDemuxer
+  - OGVKit/WebM/VP8 (0.5.13):
+    - OGVKit/VorbisDecoder
+    - OGVKit/VP8Decoder
+    - OGVKit/WebMDemuxer
+  - OGVKit/WebMDemuxer (0.5.13):
+    - libnestegg (~> 0.2)
+    - OGVKit/Core
+  - PMAlertController (4.0.0)
+  - SwiftGifOrigin (1.7.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AsyncSwift
+  - DeviceKit
+  - HanekeSwift (from `https://github.com/Haneke/HanekeSwift.git`, tag `v0.11.1`)
+  - ImageScrollView
+  - OGVKit/WebM
+  - PMAlertController
+  - SwiftGifOrigin (~> 1.7.0)
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/brion/OGVKit-Specs.git:
+    - libnestegg
+    - libogg
+    - libvorbis
+    - libvpx
+    - OGVKit
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AsyncSwift
+    - DeviceKit
+    - ImageScrollView
+    - libopus
+    - PMAlertController
+    - SwiftGifOrigin
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  HanekeSwift:
+    :git: https://github.com/Haneke/HanekeSwift.git
+    :tag: v0.11.1
+
+CHECKOUT OPTIONS:
+  HanekeSwift:
+    :git: https://github.com/Haneke/HanekeSwift.git
+    :tag: v0.11.1
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AsyncSwift: 65775a7b32e740609b24969ece3de58723b9dc3e
+  DeviceKit: da103891aa928d89f64ea8dd8aca738c5f3d8ac0
+  HanekeSwift: cb662a1f22b10ff3ff1d7b5030ae451da5d93831
+  ImageScrollView: 82912273486297285682bdb2a806742f0d39940c
+  libnestegg: 851afa1dc38c810bb18fa6459c39aa124abd7fc0
+  libogg: 35e313159a7270931d0f0f208c2d5f60bc05399b
+  libopus: ad5f060dcb8f30f139777244d70f9111f1c80863
+  libvorbis: b2c6a2c2bb22447d80403981185b213cf688fae7
+  libvpx: 5abeaf729fa406fd65ae1c19adcf00329c40e02a
+  OGVKit: 0e63492407aa2f3734ff18670ca09ecfe63d34e7
+  PMAlertController: 5fad2da8b9eb687134ed50c3462fed12c3afe976
+  SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 15d573d3c591cec32ede72dc7ef10430ea8bbf8f
+
+COCOAPODS: 1.7.5
